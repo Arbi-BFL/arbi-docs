@@ -13,7 +13,7 @@ This repository contains comprehensive documentation covering:
 
 ## Live Documentation
 
-🔗 **https://docs.arbi.betterfuturelabs.xyz** (coming soon)
+🔗 **https://docs.arbi.betterfuturelabs.xyz**
 
 📦 **Local Preview**: http://173.255.225.53:3200
 
