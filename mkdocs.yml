@@ -70,7 +70,10 @@ nav:
     - Docker Setup: infrastructure/docker.md
     - Deployment: infrastructure/deployment.md
   - Projects:
+    - Unified Frontend: projects/unified-frontend.md
     - Wallet Dashboard: projects/wallet-dashboard.md
+    - Email Automation: projects/email-automation.md
+    - Onchain Analytics: projects/onchain-analytics.md
     - Future Projects: projects/future.md
   - Development:
     - Architecture: development/architecture.md
