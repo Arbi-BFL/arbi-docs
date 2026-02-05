@@ -80,13 +80,13 @@ curl 'https://api.coingecko.com/api/v3/simple/price?ids=ethereum,solana&vs_curre
 **Purpose**: Real-time notifications for transactions and emails
 
 **Webhooks**:
-- **Email Inbox**: `https://discord.com/api/webhooks/REDACTED_WEBHOOK/...`
-- **Onchain Alerts**: `https://discord.com/api/webhooks/REDACTED_WEBHOOK/...`
+- **Email Inbox**: Stored in `.credentials` file
+- **Onchain Alerts**: Stored in `.credentials` file
 
 **Payload Format**:
 ```json
 {
-  "content": "<@REDACTED_USER_ID>",
+  "content": "<@YOUR_USER_ID_HERE>",
   "embeds": [{
     "title": "New Transaction",
     "color": 5814783,
@@ -310,7 +310,7 @@ Real-time alerts for:
 - New emails received
 - Service errors
 
-Mentions Arbi (`<@REDACTED_USER_ID>`) for automatic investigation.
+Mentions Arbi (`<@YOUR_USER_ID_HERE>`) for automatic investigation.
 
 ### Manual Checks
 ```bash

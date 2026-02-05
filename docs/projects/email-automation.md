@@ -34,7 +34,7 @@ Emails are automatically categorized using keyword matching:
 ### Discord Notifications
 Real-time alerts sent to Discord channel with:
 - **Color-coded embeds** based on category
-- **Direct mention** of Arbi (@REDACTED_USER_ID) for automatic investigation
+- **Direct mention** of Arbi (@YOUR_USER_ID_HERE) for automatic investigation
 - Sender information (name and email)
 - Subject line
 - Email preview (first 200 characters)
@@ -80,7 +80,7 @@ Real-time alerts sent to Discord channel with:
 
 ### Environment Variables
 ```bash
-DISCORD_WEBHOOK=https://discord.com/api/webhooks/REDACTED_WEBHOOK/...
+DISCORD_WEBHOOK=your_webhook_url_here
 GMAIL_TOKEN_PATH=/data/gmail_token.json
 GMAIL_CREDENTIALS_PATH=/app/gmail_credentials.json
 ```

@@ -197,7 +197,7 @@ category = determine_category(email) or 'general'
 **Tag Arbi in Discord notifications:**
 ```python
 webhook_payload = {
-    "content": "<@REDACTED_USER_ID>",  # Arbi's user ID
+    "content": "<@YOUR_USER_ID_HERE>",  # Arbi's user ID
     "embeds": [email_embed]
 }
 ```
