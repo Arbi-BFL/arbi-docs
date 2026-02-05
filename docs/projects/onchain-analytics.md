@@ -185,7 +185,7 @@ Health check endpoint:
 
 ### Environment Variables
 ```bash
-ALCHEMY_API_KEY=REDACTED_API_KEY
+ALCHEMY_API_KEY=your_api_key_here
 DISCORD_WEBHOOK=https://discord.com/api/webhooks/...
 ```
 

@@ -7,7 +7,7 @@ External tools, APIs, and services used in Arbi's infrastructure.
 ### Alchemy
 **Purpose**: Blockchain data for Base and Solana  
 **Tier**: Free (330 requests/second)  
-**API Key**: `REDACTED_API_KEY`
+**API Key**: Stored in `.credentials` file (not in git)
 
 **Base Endpoint**:
 ```
@@ -389,7 +389,7 @@ docker run -d -p 3000:3000 project-name
 ### Environment Variables
 Create `.env` file (not committed):
 ```bash
-ALCHEMY_API_KEY=REDACTED_API_KEY
+ALCHEMY_API_KEY=your_api_key_here
 DISCORD_WEBHOOK=https://discord.com/api/webhooks/...
 GMAIL_TOKEN_PATH=/data/gmail_token.json
 ```
